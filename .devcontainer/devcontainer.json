@@ -10,7 +10,7 @@
 		}
 	},
   "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
-	"runArgs": ["--name", "${localWorkspaceFolderBasename}_devcontainer", "--hostname", "${localWorkspaceFolderBasename}" ],
+	"runArgs": ["--name", "${localWorkspaceFolderBasename}_devcontainer", "--hostname", "${localWorkspaceFolderBasename}","--gpus","all" ],
   "remoteUser": "ilude",
   "customizations": {
     "vscode": {
