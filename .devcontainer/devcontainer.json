@@ -47,7 +47,7 @@
     }
   },
   "mounts": [
-    "source=${localEnv:USERPROFILE}/.ssh,target=/home/ilude/.ssh,type=bind,consistency=cached"
+    "source=${localEnv:HOME}/.ssh,target=/home/ilude/.ssh,type=bind,consistency=cached"
   ]
 
 	// Use 'postCreateCommand' to run commands after the container is created.
